@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Visit | HDPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-page">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Book Appointment</h2>
+                <p>स्कूल आने का समय चुनें</p>
+            </div>
+            
+            <form action="https://formspree.io/f/mjgarjrg" method="POST">
+                <div class="input-group">
+                    <label>अभिभावक का नाम (Your Name)</label>
+                    <input type="text" name="Parent_Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>तारीख (Date)</label>
+                    <input type="date" name="Date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>समय (Time)</label>
+                    <input type="time" name="Time" required>
+                </div>
+
+                <div class="input-group">
+                    <label>मोबाइल (Mobile)</label>
+                    <input type="tel" name="Mobile" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Confirm Appointment</button>
+            </form>
+            <p style="text-align:center; margin-top:20px;"><a href="index.html" style="text-decoration:none; color:#003366; font-weight:bold;">← वापस होम पर जाएं</a></p>
+        </div>
+    </div>
+</body>
+</html>

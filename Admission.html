@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form | HDPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-page">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Admission Form</h2>
+                <p>H.D. Public School, 2026-27</p>
+            </div>
+            
+            <form action="https://formspree.io/f/mjgarjrg" method="POST">
+                <div class="input-group">
+                    <label>छात्र का नाम (Student Name)</label>
+                    <input type="text" name="Student_Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>मोबाइल नंबर (Mobile Number)</label>
+                    <input type="tel" name="Mobile" required>
+                </div>
+
+                <div class="input-group">
+                    <label>पता (Address)</label>
+                    <textarea name="Address" rows="3" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Registration</button>
+            </form>
+            <p style="text-align:center; margin-top:20px;"><a href="index.html" style="text-decoration:none; color:#003366; font-weight:bold;">← वापस होम पर जाएं</a></p>
+        </div>
+    </div>
+</body>
+</html>
